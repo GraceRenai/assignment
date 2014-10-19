@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EasyAccount</string>
+    <string name="writeaccounthelp">
+    	<i>Step1:Choose the type of this cost\n</i>
+    	<i>Step2:Type the sum of money and save\n</i>
+    	<i>Step3:submit the tip dialog</i>
+    </string>
+    <color name="tabbar_1">#a8d3ff</color>
+	<color name="tabbar_2">#ffffff</color>
+	<!-- <color name="canlendar_border">#6b952f</color> -->
+	<color name="canlendar_border">#a4957a</color>
+	<color name="canlendar_header">#c38c2f</color>
+	<color name="canlendar_week_6">#0072ff</color>
+	<color name="canlendar_week_7">#f02f2f</color>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="assignment.easyaccount"
+      android:versionCode="1"
+      android:versionName="1.0">
+       <application android:icon="@drawable/icon" android:label="@string/app_name">
+    	 <activity android:label="@string/app_name" android:name="assignment.easyaccount.Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+             	<category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Button例子" android:name="assignment.easyaccount.tabbar.ButtonDemo"/>
+        <activity android:label="查询账单" android:name="assignment.easyaccount.activity.QueryAccount"/>
+        <activity android:label="Bill Today" android:name="assignment.easyaccount.activity.TodayAccount"/>
+        <activity android:label="Bill History" android:name="assignment.easyaccount.activity.HistoryAccount"/>
+        <activity android:label="记录账单" android:name="assignment.easyaccount.activity.WriteAccount"/>
+        <activity android:name="assignment.easyaccount.activity.TypeAccountList"/>
+        
+        <activity android:label="Canlendar" android:name="assignment.easyaccount.dialog.CanlendarDialog" android:theme="@style/Theme.AccountDialog" />
+        <activity android:label="Set Period" android:name="assignment.easyaccount.dialog.DateSelectorDialog" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+    </application>
+    <uses-sdk android:minSdkVersion="10" />
+
+</manifest> 
